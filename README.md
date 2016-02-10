@@ -1,9 +1,9 @@
 # Astrocode
 This is a game i made with some friends, its goal is to teach how coding is like.
 
-Special thnx to
-Daniel Lopera Fernandez
-Angely Arzuza
+Special thnx to <br></br>
+Daniel Lopera Fernandez<br></br>
+Angely Arzuza<br></br>
 Joseph Palmezano.
 
 This demo is the first level of the game, we are currently thinking on more levels, we hope to find more people to help us on this
@@ -14,7 +14,7 @@ project.
 The objective is to get the key and cross the door.
 There is a textArea where you need to place the methods described below.
 
-Instructions:
+Instructions:<br></br>
 
 Right() = The Astronaut impulse itself to the right, the impulse depends on the value you pass as parameter
 
