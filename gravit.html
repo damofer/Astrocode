@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Gravit</title>
+		<style>
+            body {
+                font-family: "helvetica";
+            }
+			canvas {
+				position: absolute;
+				top: 60px;
+				left: 20px;
+				background: transparent;
+			}
+            #background {
+				z-index: 0;
+			}
+			#astronaut {
+				z-index: 1;
+			}
+            .editor {
+                margin-right: 20px;
+                margin-top: 52px;
+                float: right;
+            }
+            textarea {
+                width: 320px;
+                height: 372px;
+            }
+            a {
+                font-size: 1.5em;
+                font-weight: bold;
+                color:cornflowerblue;
+                text-decoration: none;
+                float: right;
+            }
+		</style>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+	</head>
+	<body>
+
+    <div id="phaserContainer"></div>
+		<!-- <canvas id="background" width="620" height="400">
+			Your browser does not support canvas. Please try again with a different browser.
+		</canvas> -->
+        <div class="editor">
+            <textarea id="editor"></textarea><br>
+            <a href="#" id="run">&#9658;Run</a>
+        </div>
+
+<script src="phaser.js"></script>
+<script src="gravit.js"></script>
+
+<!-- <script src="game.js"></script> -->
+	</body>
+</html>

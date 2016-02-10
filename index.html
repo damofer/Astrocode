@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Gravit</title>
+		<style>
+            body {
+                font-family: "helvetica";
+            }
+			canvas {
+				position: absolute;
+				top: 60px;
+				left: 20px;
+				background: transparent;
+			}
+            #background {
+				z-index: 0;
+			}
+			#astronaut {
+				z-index: 1;
+			}
+            .editor {
+                margin-right: 20px;
+                margin-top: 52px;
+                float: right;
+            }
+            textarea {
+                width: 320px;
+                height: 372px;
+            }
+            a {
+                font-size: 1.5em;
+                font-weight: bold;
+                color:cornflowerblue;
+                text-decoration: none;
+                float: right;
+            }
+		</style>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+	</head>
+	<body>
+
+<div id="header">
+    <div id="phaserContainer" width="800" height="600" ></div>
+		<!-- <canvas id="background" width="620" height="400">
+			Your browser does not support canvas. Please try again with a different browser.
+		</canvas> -->
+        <div id="right" style="max-width:450px; margin-left:900px;">
+        <div class="editor">
+            <textarea id="editor"></textarea><br>
+
+            <a href="#" id="run">&#9658;Run</a>
+
+
+        </div>
+        <div >
+        <h1>Instructions: </h1>
+            <p> <b>Right()</b> = The Astronaut impulse itself to the right, the impulse depends on the value you pass as parameter</p>
+            <p> <b>Left()</b> = The Astronaut impulse itself to the Left, the impulse depends on the value you pass as parameter</p>
+            <p> <b>alterGravity()</b> = The Astronauts activates the Gravity Inverter Device.</p>
+             <p> <b>magnetBoots</b> = The Astronauts activates the Magnetic boots to stick himself to the ground.</p>
+            </div>
+
+
+            </div>
+            </div>
+
+<script src="phaser.js"></script>
+<script src="gravit.js"></script>
+
+<!-- <script src="game.js"></script> -->
+	</body>
+</html>
